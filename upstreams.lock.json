@@ -1,0 +1,177 @@
+{
+  "checkedOn": "2026-11-01",
+  "nuvio": [
+    {
+      "directory": "platforms/desktop",
+      "repository": "NuvioMedia/NuvioDesktop",
+      "tag": "0.1.33-alpha",
+      "commit": "5f99fb4dba1ee43258977abacde7703a27e941fa"
+    },
+    {
+      "directory": "platforms/android-tv",
+      "repository": "NuvioMedia/NuvioTV",
+      "tag": "1.1.0-beta.9",
+      "commit": "fa194b008e331780d2391491879e4a0a343641ef"
+    },
+    {
+      "directory": "platforms/android-mobile",
+      "repository": "NuvioMedia/NuvioMobile",
+      "tag": "0.6.6-beta",
+      "commit": "2d52c8b71b598eb90e13fa9ec9ccff97ab601126"
+    }
+  ],
+  "kino": [
+    {
+      "repository": "kinotvapp/cloudflare-quick-tunnel-kotlin",
+      "commit": "22a00aeb58393fd36df1148ad296d8c096b1e70b"
+    },
+    {
+      "repository": "kinotvapp/kino-cloudstream-bridge",
+      "commit": "62e73063938fe5beb363799c56ba5f405b8ac83b"
+    },
+    {
+      "repository": "kinotvapp/kino-light",
+      "commit": "8f5d71a16b12ff17ad8f6f259ef63dba92765a0a"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-archive",
+      "commit": "016503f53e9d71ae02dbff0b53074c6fdcdb11a8"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-archive-audio",
+      "commit": "540c1cadd6fcc0695eea9ae68cff0d23a2159044"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-audio-test",
+      "commit": "4eab4e08f08734e5bf411cc31b7cd64048fbb3e2"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-news",
+      "commit": "bcb4043cc2513a4a86cae87e3e2650a5424f5673"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-own-server",
+      "commit": "40d0441542d79e632d62c5fc0c892efa7c5731f3"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-poster-pro",
+      "commit": "5fc689d8b4bd520c929a3525141b21f0b6036307"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-sdk",
+      "commit": "29653a1706499bf857eaa95700a09b4bf473ca39"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-seenr",
+      "commit": "726ec7346773c2dd2bd5a480e79e3174fe035561"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-store",
+      "commit": "897d1774ba5cdbce612513835e42111d6037bd33"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-subtitlecat",
+      "commit": "29f8c7116a3ca9f2da4c2ebc1fa4dcc0e65eb229"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-sync-gdrive",
+      "commit": "8bd76be1f188e0d73bcd097c27efb8008266c79e"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-sync-gram",
+      "commit": "af1d4dcfc4248defd8108742d061bdba39a4f90a"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-sync-gram-account",
+      "commit": "649575043826a9a92cca2a378f80a48449fef442"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-sync-server",
+      "commit": "55a7e171b70179062a8a42fe23671e55e9f68ab1"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-tmdb",
+      "commit": "736cb309e785d1a429422cba2110d53e8bbccb6f"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-ui-gallery",
+      "commit": "b959254ad052e979405f12dde2569430dbc095d8"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-video-gram",
+      "commit": "7905bdcfc66c3918934bc3f0958b03c3a908a352"
+    },
+    {
+      "repository": "kinotvapp/kino-plugin-watch-party",
+      "commit": "0ce2d489aedf05bd1315514f02b9dd77226fcfe0"
+    },
+    {
+      "repository": "kinotvapp/kino-plugins",
+      "commit": "eefa3721b04d80b780f821540a5515be41ac9ba3"
+    },
+    {
+      "repository": "kinotvapp/kino-resolver-example",
+      "commit": "01ed0bfbc6c93addc97d1a6813a2256ee0ec8234"
+    },
+    {
+      "repository": "kinotvapp/kino-resolver-example-plugin",
+      "commit": "b220a9bda8a0b31b9bec7489cbddaf7d15de802b"
+    },
+    {
+      "repository": "kinotvapp/kino-social",
+      "commit": "b60719383a351f62ecae316734fe56e14bf41d71"
+    },
+    {
+      "repository": "kinotvapp/kino-social-backend",
+      "commit": "7c6bc74d12685923e94f9f3cb06625ad03d8587e"
+    },
+    {
+      "repository": "kinotvapp/kino-theme",
+      "commit": "22186bdd0dbef70771b17555f915d260d31a63d0"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-aguijon-de-acero",
+      "commit": "2af107750139c25c30eb8891ba8dabc5abb9c58d"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-cine-negro",
+      "commit": "d0559e57f1669605f21a1dbeb76a9697c20113a0"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-gala-vampirica",
+      "commit": "9dee3c8bc53decf310efab9c74636242072ad44f"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-gran-tesoro",
+      "commit": "2f3a77cb80a545c4f009217183d30e24794ef578"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-hechizo-boreal",
+      "commit": "1dcc3786e5d46491f09584760c9d6f20edd00e89"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-justiciero-nocturno",
+      "commit": "fa874ec61578b8f7d247dfbee2e412a4565cd18a"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-ki-desatado",
+      "commit": "87907cbb299973b5c658d1387879e796afc43772"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-lluvia-de-codigo",
+      "commit": "dca8f3944e936cae81f85aab3640a2b8450376d3"
+    },
+    {
+      "repository": "kinotvapp/kino-theme-reactor-escarlata",
+      "commit": "a5c988e154c898227763ee7a94a31b9492af36fb"
+    },
+    {
+      "repository": "kinotvapp/kino-tv",
+      "commit": "cdc17509c5365092582ca258a28e31d3ad7bfead"
+    },
+    {
+      "repository": "kinotvapp/kinotvapp.github.io",
+      "commit": "e26de193a587e356cea87a188fcb65c723fc1855"
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+[
+    {
+        "id": "archive-org",
+        "address": "kinotvapp/kino-plugin-archive",
+        "version": "1.4.2",
+        "apiVersion": 3,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "browse",
+            "episodes",
+            "home",
+            "resolve",
+            "search"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "download"
+        ]
+    },
+    {
+        "id": "archive-audio",
+        "address": "kinotvapp/kino-plugin-archive-audio",
+        "version": "1.0.0",
+        "apiVersion": 8,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "action",
+            "browse",
+            "categories",
+            "episodes",
+            "home",
+            "resolve",
+            "search",
+            "section",
+            "settingsStatus",
+            "validateSettings"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "download"
+        ]
+    },
+    {
+        "id": "audio-test",
+        "address": "kinotvapp/kino-plugin-audio-test",
+        "version": "0.1.0",
+        "apiVersion": 8,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "episodes",
+            "home",
+            "resolve",
+            "search"
+        ],
+        "error": "",
+        "hostIntegrationsPending": []
+    },
+    {
+        "id": "news",
+        "address": "kinotvapp/kino-plugin-news",
+        "version": "1.0.4",
+        "apiVersion": 14,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "accentFor",
+            "addTerm",
+            "adultRecord",
+            "askAi",
+            "batchExecuteRequest",
+            "batchQueries",
+            "budgetFor",
+            "budgeted",
+            "buildCategoryPrompt",
+            "buildTerms",
+            "categoryOptions",
+            "classifyNow",
+            "cleanTerms",
+            "decodeArticleUrl",
+            "decodeEntities",
+            "editionFor",
+            "extractArticle",
+            "feedKeyOf",
+            "fitSize",
+            "frequencyMs",
+            "googleNewsUrl",
+            "guessCategory",
+            "headOf",
+            "header",
+            "initialOf",
+            "isAdult",
+            "isAdultUrl",
+            "isFresh",
+            "job",
+            "keptArticles",
+            "makeCache",
+            "makeSharedCache",
+            "manualRefresh",
+            "matchTerm",
+            "mergeWindow",
+            "metaFresh",
+            "parseArticleParams",
+            "parseBatchExecute",
+            "parseCategories",
+            "parseGoogleNews",
+            "parsePageMeta",
+            "pending",
+            "pickBatches",
+            "qualifierFor",
+            "refresh",
+            "relatedOf",
+            "resolveHttps",
+            "rfcTime",
+            "screen",
+            "screenEvent",
+            "stageOrder",
+            "step",
+            "storyId",
+            "stripHtml",
+            "termQuery",
+            "timeAgo",
+            "utf8Bytes",
+            "validRecord",
+            "validStories",
+            "validWatched",
+            "watchedKey",
+            "watchedRoom",
+            "watchedTitles"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "schedule",
+            "ai"
+        ]
+    },
+    {
+        "id": "own-server",
+        "address": "kinotvapp/kino-plugin-own-server",
+        "version": "1.5.0",
+        "apiVersion": 7,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "action",
+            "browse",
+            "categories",
+            "episodes",
+            "guide",
+            "home",
+            "liveCategories",
+            "liveChannels",
+            "liveSearch",
+            "meta",
+            "migrate",
+            "resolve",
+            "search",
+            "section",
+            "segments",
+            "settingsStatus",
+            "sign",
+            "subtitles",
+            "track",
+            "validateSettings"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "download",
+            "meta",
+            "subtitles",
+            "tracking",
+            "segments"
+        ]
+    },
+    {
+        "id": "poster-pro",
+        "address": "kinotvapp/kino-plugin-poster-pro",
+        "version": "1.0.0",
+        "apiVersion": 9,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "action",
+            "meta",
+            "settingsStatus",
+            "validateSettings"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "meta"
+        ]
+    },
+    {
+        "id": "seenr",
+        "address": "kinotvapp/kino-plugin-seenr",
+        "version": "1.0.4",
+        "apiVersion": 7,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "payloadFor",
+            "tokenFrom",
+            "track"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "tracking"
+        ]
+    },
+    {
+        "id": "kino-plugins",
+        "address": "kinotvapp/kino-plugin-store",
+        "version": "1.0.2",
+        "apiVersion": 15,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "storeSync"
+        ],
+        "error": "",
+        "hostIntegrationsPending": []
+    },
+    {
+        "id": "subtitlecat",
+        "address": "kinotvapp/kino-plugin-subtitlecat",
+        "version": "1.0.1",
+        "apiVersion": 6,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "originalTitle",
+            "parseFiles",
+            "parseResults",
+            "queryFor",
+            "rank",
+            "subtitles",
+            "titleWords"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "subtitles"
+        ]
+    },
+    {
+        "id": "sync-gdrive",
+        "address": "kinotvapp/kino-plugin-sync-gdrive",
+        "version": "0.2.5",
+        "apiVersion": 14,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "action",
+            "onEvent",
+            "sanitizeFlow",
+            "screen",
+            "screenEvent",
+            "settingsStatus",
+            "sizeText",
+            "stateOf",
+            "syncPull",
+            "syncPush",
+            "syncStatus",
+            "validateSettings",
+            "view"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "syncProvider"
+        ]
+    },
+    {
+        "id": "sync-gram",
+        "address": "kinotvapp/kino-plugin-sync-gram",
+        "version": "1.1.1",
+        "apiVersion": 14,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent",
+            "syncPull",
+            "syncPush",
+            "syncStatus",
+            "validateSettings"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "syncProvider"
+        ]
+    },
+    {
+        "id": "sync-gram-account",
+        "address": "kinotvapp/kino-plugin-sync-gram-account",
+        "version": "1.2.1",
+        "apiVersion": 14,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent",
+            "syncPull",
+            "syncPush",
+            "syncStatus",
+            "validateSettings"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "syncProvider",
+            "socket"
+        ]
+    },
+    {
+        "id": "sync-server",
+        "address": "kinotvapp/kino-plugin-sync-server/plugin",
+        "version": "1.0.0",
+        "apiVersion": 12,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "action",
+            "serverBase",
+            "settingsStatus",
+            "syncPull",
+            "syncPush",
+            "syncStatus",
+            "validateSettings"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "syncProvider"
+        ]
+    },
+    {
+        "id": "tmdb",
+        "address": "kinotvapp/kino-plugin-tmdb",
+        "version": "1.2.0",
+        "apiVersion": 7,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "browse",
+            "categories",
+            "episodes",
+            "home",
+            "meta",
+            "resolve",
+            "search",
+            "section",
+            "settingsStatus"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "meta"
+        ]
+    },
+    {
+        "id": "screen-gallery",
+        "address": "kinotvapp/kino-plugin-ui-gallery",
+        "version": "1.0.1",
+        "apiVersion": 14,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": []
+    },
+    {
+        "id": "video-gram",
+        "address": "kinotvapp/kino-plugin-video-gram",
+        "version": "1.2.1",
+        "apiVersion": 14,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "browse",
+            "categories",
+            "details",
+            "home",
+            "image",
+            "read",
+            "resolve",
+            "screen",
+            "screenEvent",
+            "search",
+            "section"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "socket",
+            "byteSource",
+            "imageSource"
+        ]
+    },
+    {
+        "id": "watch-party",
+        "address": "kinotvapp/kino-plugin-watch-party",
+        "version": "1.1.2",
+        "apiVersion": 14,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "addEntries",
+            "buildSnapshot",
+            "busyTap",
+            "candidatesOf",
+            "channelOf",
+            "chatAllowed",
+            "chunkEntries",
+            "compactParty",
+            "createShortCode",
+            "elect",
+            "enqueue",
+            "expectedPos",
+            "firstGap",
+            "focusables",
+            "groupCode",
+            "groupShort",
+            "guestReceive",
+            "guestTick",
+            "historyRange",
+            "hostGone",
+            "hostReceive",
+            "hostTick",
+            "invitationText",
+            "linkQrText",
+            "linkReceive",
+            "liveChannelGoOf",
+            "loadParty",
+            "lobbyReceive",
+            "lookupShortCode",
+            "maskCode",
+            "mediaMatch",
+            "mediaOf",
+            "memberRows",
+            "newParty",
+            "normCode",
+            "normShort",
+            "normWords",
+            "observeSkew",
+            "panel",
+            "panelAction",
+            "panelActionAt",
+            "panelAt",
+            "parseInvitation",
+            "parseLinkQr",
+            "parsePartyQr",
+            "parseRoomUrl",
+            "partyQrText",
+            "playerEvent",
+            "playerEventAt",
+            "promote",
+            "pump",
+            "randomToken",
+            "readEntry",
+            "readGuestMessage",
+            "readHostMessage",
+            "readLinkMessage",
+            "readMedia",
+            "readShortAnswer",
+            "readSnapshot",
+            "recoveryScreen",
+            "rejoinView",
+            "revokeShortCode",
+            "roomUrlOf",
+            "saveParty",
+            "scrub",
+            "scrubName",
+            "seekAllowed",
+            "syncAction",
+            "titleByIdsOf",
+            "trimHistory",
+            "view",
+            "waitKey",
+            "wantedBackups",
+            "withFocus",
+            "wizFocus",
+            "wizStepOf"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "playerPanelTab",
+            "room",
+            "playerControl"
+        ]
+    },
+    {
+        "id": "kino-resolver-example",
+        "address": "kinotvapp/kino-resolver-example-plugin",
+        "version": "0.1.0",
+        "apiVersion": 11,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "home",
+            "resolve",
+            "search"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "externalResolve"
+        ]
+    },
+    {
+        "id": "kino-social",
+        "address": "kinotvapp/kino-social",
+        "version": "0.9.6",
+        "apiVersion": 16,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "job",
+            "panel",
+            "panelAction",
+            "screen",
+            "screenEvent",
+            "track"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "tracking",
+            "identity",
+            "ai",
+            "schedule",
+            "notifications",
+            "playerPanelTab",
+            "coins"
+        ]
+    },
+    {
+        "id": "kino-theme",
+        "address": "kinotvapp/kino-theme",
+        "version": "1.0.0",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-aguijon-de-acero",
+        "address": "kinotvapp/kino-theme-aguijon-de-acero",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-cine-negro",
+        "address": "kinotvapp/kino-theme-cine-negro",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-gala-vampirica",
+        "address": "kinotvapp/kino-theme-gala-vampirica",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-gran-tesoro",
+        "address": "kinotvapp/kino-theme-gran-tesoro",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-hechizo-boreal",
+        "address": "kinotvapp/kino-theme-hechizo-boreal",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-justiciero-nocturno",
+        "address": "kinotvapp/kino-theme-justiciero-nocturno",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-ki-desatado",
+        "address": "kinotvapp/kino-theme-ki-desatado",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-lluvia-de-codigo",
+        "address": "kinotvapp/kino-theme-lluvia-de-codigo",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    },
+    {
+        "id": "theme-reactor-escarlata",
+        "address": "kinotvapp/kino-theme-reactor-escarlata",
+        "version": "1.0.2",
+        "apiVersion": 17,
+        "moduleLoaded": true,
+        "installed": true,
+        "exports": [
+            "screen",
+            "screenEvent"
+        ],
+        "error": "",
+        "hostIntegrationsPending": [
+            "themes"
+        ]
+    }
+]

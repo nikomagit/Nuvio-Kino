@@ -1,0 +1,6 @@
+[submodule "desktop-MPVKit"]
+	path = platforms/desktop/MPVKit
+	url = https://github.com/NuvioMedia/MPVKit.git
+[submodule "android-mobile-MPVKit"]
+	path = platforms/android-mobile/MPVKit
+	url = https://github.com/NuvioMedia/MPVKit.git

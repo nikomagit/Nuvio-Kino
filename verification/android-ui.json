@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-01",
+  "device": "Android 36 x86_64 emulator",
+  "androidTv": {
+    "package": "com.nikomagit.nuviokino.tv.debug",
+    "startup": true,
+    "dpadNavigationToTvAndStore": true,
+    "officialStoreEntriesObserved": 150,
+    "pluginInstalledThroughAppStore": "kinotvapp/kino-plugin-own-server",
+    "pluginVersion": "1.5.0",
+    "configuredThroughAppForms": true,
+    "liveCategoriesObserved": 5,
+    "paginatedChannelListAndProgrammeTitles": true,
+    "visibleHlsPlaybackInNuvioMedia3": true,
+    "decodedSize": "320x180",
+    "audioDecoderInitialized": true,
+    "audibleAudioVerified": false,
+    "backReturnsToChannels": true,
+    "screenshots": ["tv-channels.png", "tv-playback.png"]
+  },
+  "androidMobile": {
+    "package": "com.nikomagit.nuviokino.mobile.debug",
+    "startup": true,
+    "anonymousSignInAndLocalProfileCreation": true,
+    "tvNavigation": true,
+    "fullClientPlaybackVerified": false
+  },
+  "limits": "Reference server only. This is not certification of every listed addon, production services, remote-control hardware, audible audio, or physical-device playback."
+}

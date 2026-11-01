@@ -1,0 +1,38 @@
+[
+  {
+    "upstream": "NuvioMedia/NuvioDesktop",
+    "path": "platforms/desktop/libass-android",
+    "commit": "c10b71ab8b4d90796d4a795f775d337c29198ad0",
+    "note": "Gitlink tracked upstream without an entry in upstream .gitmodules; not required for the prebuilt dependency build."
+  },
+  {
+    "upstream": "NuvioMedia/NuvioDesktop",
+    "path": "platforms/desktop/vendor/quickjs-kt",
+    "commit": "57ce096200ac36bceb4e1ee5b6ec411b12357eb8",
+    "note": "Gitlink tracked upstream without an entry in upstream .gitmodules; not required for the prebuilt dependency build."
+  },
+  {
+    "upstream": "NuvioMedia/NuvioMobile",
+    "path": "platforms/android-mobile/libass-android",
+    "commit": "c10b71ab8b4d90796d4a795f775d337c29198ad0",
+    "note": "Gitlink tracked upstream without an entry in upstream .gitmodules; not required for the prebuilt dependency build."
+  },
+  {
+    "upstream": "NuvioMedia/NuvioMobile",
+    "path": "platforms/android-mobile/vendor/TorrServer",
+    "commit": "b79dbaf99ddc31c2b7f62fed997813861347ad9a",
+    "note": "Gitlink tracked upstream without an entry in upstream .gitmodules; not required for the prebuilt dependency build."
+  },
+  {
+    "upstream": "NuvioMedia/NuvioMobile",
+    "path": "platforms/android-mobile/vendor/quickjs-kt",
+    "commit": "57ce096200ac36bceb4e1ee5b6ec411b12357eb8",
+    "note": "Gitlink tracked upstream without an entry in upstream .gitmodules; not required for the prebuilt dependency build."
+  },
+  {
+    "upstream": "NuvioMedia/NuvioTV",
+    "path": "platforms/android-tv/libmpv-android",
+    "commit": "f48aa82b2677428f756a689a44c2477c3f37be51",
+    "note": "Gitlink tracked upstream without an entry in upstream .gitmodules; not required for the prebuilt dependency build."
+  }
+]

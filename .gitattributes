@@ -1,0 +1,13 @@
+* text=auto
+*.kt text eol=lf
+*.kts text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.bat text eol=crlf
+*.dll binary
+*.so binary
+*.dylib binary
+*.aar binary
+*.jar binary

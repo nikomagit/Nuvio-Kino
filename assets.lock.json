@@ -1,0 +1,8 @@
+[
+  {
+    "path": "platforms/desktop/composeApp/src/desktopMain/native/windows/runtime/libmpv-2.dll",
+    "bytes": 115320296,
+    "sha256": "07c68bb211f23a218ded0a36eb12207dc3aeb44e5318ffca6ce9dcc7c3173906",
+    "url": "https://raw.githubusercontent.com/NuvioMedia/NuvioDesktop/5f99fb4dba1ee43258977abacde7703a27e941fa/composeApp/src/desktopMain/native/windows/runtime/libmpv-2.dll"
+  }
+]

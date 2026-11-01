@@ -1,0 +1,17 @@
+[
+  {
+    "Platform": "android-tv",
+    "Task": ":app:assembleFullDebug",
+    "ExitCode": 0
+  },
+  {
+    "Platform": "desktop",
+    "Task": ":composeApp:compileKotlinDesktop",
+    "ExitCode": 0
+  },
+  {
+    "Platform": "android-mobile",
+    "Task": ":androidApp:assembleFullDebug",
+    "ExitCode": 0
+  }
+]

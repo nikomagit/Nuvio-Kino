@@ -1,0 +1,14 @@
+.research/
+.tools/
+.gradle/
+**/.gradle/
+**/build/
+**/.kotlin/
+**/local.properties
+**/node_modules/
+*.pem
+!**/res/raw/isrg*.pem
+*.keystore
+*.jks
+verification/local/
+platforms/desktop/composeApp/src/desktopMain/native/windows/runtime/libmpv-2.dll

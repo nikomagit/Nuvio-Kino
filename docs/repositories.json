@@ -1,0 +1,1187 @@
+{
+  "checkedOn": "2026-11-01",
+  "repositories": [
+    {
+      "repo": "kinotvapp/cloudflare-quick-tunnel-kotlin",
+      "revision": "22a00aeb58393fd36df1148ad296d8c096b1e70b",
+      "license": "Apache-2.0",
+      "role": "Transporte de túneles JVM/Android",
+      "description": "Pure Kotlin/JVM client for Cloudflare quick tunnels (trycloudflare.com): QUIC + Cap'n Proto RPC, no cloudflared binary. Works on Android.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# cloudflare-quick-tunnel-kotlin",
+        "## Status",
+        "## Limitations",
+        "## What it does",
+        "## Transport",
+        "## Usage",
+        "## Android notes",
+        "## Network destinations",
+        "## Requirements and size",
+        "## Repository layout",
+        "## Building",
+        "## Credits and licenses"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/kino-cloudstream-bridge",
+      "revision": "62e73063938fe5beb363799c56ba5f405b8ac83b",
+      "license": "GPL-3.0",
+      "role": "Host Android IPC aislado para extensiones CloudStream",
+      "description": "Kino's sandboxed CloudStream complement: runs CloudStream plugins with no internet permission; Kino does the networking. Fork of recloudstream/cloudstream (GPL-3.0).",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino bridge fork",
+        "# CloudStream",
+        "## Table of Contents: ",
+        "## About us: ",
+        "## Installation: ",
+        "## Contributing:",
+        "### Issues: ",
+        "### Extensions:",
+        "## Further Sources: ",
+        "### Supported languages:"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/kino-light",
+      "revision": "8f5d71a16b12ff17ad8f6f259ef63dba92765a0a",
+      "license": "Apache-2.0",
+      "role": "Demo de UI; plugins y TV son pantallas de muestra",
+      "description": "Kino: reproductor de peliculas, series y TV en vivo para celular y TV (Android TV / Fire TV). Kotlin + Jetpack Compose.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino — demo",
+        "## Descargar Kino completo",
+        "## Para quienes hacen plugins",
+        "## Capturas",
+        "## Qué trae la demo",
+        "## Compilar la demo (dev)",
+        "## Licencia"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-archive",
+      "revision": "016503f53e9d71ae02dbff0b53074c6fdcdb11a8",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Kino plugin: public-domain video from the Internet Archive (archive.org). Example plugin for Kino's plugin system.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Internet Archive plugin for Kino",
+        "## What it does",
+        "## Your own addresses (Configurar)",
+        "## Hosts, and why `*.archive.org`",
+        "## Install it in Kino",
+        "## Write your own plugin",
+        "## License",
+        "## License note"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "archive-org",
+          "version": "1.4.2",
+          "apiVersion": 3,
+          "capabilities": [
+            "search",
+            "home",
+            "browse",
+            "episodes",
+            "resolve",
+            "download"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-archive-audio",
+      "revision": "540c1cadd6fcc0695eea9ae68cff0d23a2159044",
+      "license": "MIT",
+      "role": "Plugin Kino",
+      "description": "Kino plugin: free music, live concerts, audiobooks and old-time radio from the Internet Archive. The reference audio plugin (apiVersion 8).",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Internet Archive Audio, a Kino plugin",
+        "## What it looks like",
+        "## What it does",
+        "## Collections and kinds",
+        "## archive.org quirks it handles",
+        "## Settings",
+        "## Hosts, and why `*.archive.org`",
+        "## Lessons for your own plugin",
+        "## What it does not do",
+        "## Test it",
+        "## Build an audio plugin like this one with an AI",
+        "## Install",
+        "## License"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "archive-audio",
+          "version": "1.0.0",
+          "apiVersion": 8,
+          "capabilities": [
+            "search",
+            "home",
+            "browse",
+            "episodes",
+            "resolve",
+            "download"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-audio-test",
+      "revision": "4eab4e08f08734e5bf411cc31b7cd64048fbb3e2",
+      "license": "MIT",
+      "role": "Plugin Kino",
+      "description": "Plugin de prueba de música y podcasts para Kino (dominio público, Internet Archive)",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Audio de prueba",
+        "## Qué trae",
+        "## De dónde sale el audio",
+        "## Licencia"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "audio-test",
+          "version": "0.1.0",
+          "apiVersion": 8,
+          "capabilities": [
+            "home",
+            "search",
+            "episodes",
+            "resolve"
+          ],
+          "hasThemes": false,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-news",
+      "revision": "bcb4043cc2513a4a86cae87e3e2650a5424f5673",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Solo noticias, a Kino plugin: news about the movies and series you watched and your own topics, as cards, from Google News. Optional auto-refresh and AI. Unofficial, not affiliated with Google. Needs Kino 0.9.74+. / Noticias de lo que ves.",
+      "readmes": [
+        "README.es.md",
+        "README.md"
+      ],
+      "headings": [
+        "# Solo noticias",
+        "## Capturas",
+        "## Instalar",
+        "## Los permisos, en palabras simples",
+        "## Configuración",
+        "## La actualización automática",
+        "## Privacidad",
+        "## Sobre Google Noticias",
+        "## Si algo falla",
+        "## Cómo está organizado el código",
+        "## Licencia",
+        "# Solo noticias (Just News)",
+        "## Screenshots",
+        "## Install",
+        "## Permissions, in plain words"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "news",
+          "version": "1.0.4",
+          "apiVersion": 14,
+          "capabilities": [
+            "screen",
+            "library",
+            "schedule",
+            "shared",
+            "ai"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-own-server",
+      "revision": "40d0441542d79e632d62c5fc0c892efa7c5731f3",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Kino plugin example: your own media server (Jellyfin/Emby/NAS-style), with a bundled reference server to try it against",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Tu servidor -- a Kino plugin for your own media server, and the SDK's demo plugin",
+        "## Every feature, and where it is",
+        "### What this plugin does not use, and why",
+        "## Run the reference server",
+        "## Install it in Kino",
+        "## Why the manifest declares no host",
+        "## Why not 127.0.0.1",
+        "## About the bundled token",
+        "## Notes on each feature",
+        "## Channels (apiVersion 3)",
+        "## Develop and test",
+        "## License",
+        "## License note"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "own-server",
+          "version": "1.5.0",
+          "apiVersion": 7,
+          "capabilities": [
+            "search",
+            "home",
+            "browse",
+            "episodes",
+            "resolve",
+            "download",
+            "channels",
+            "scopedSearch",
+            "migrate",
+            "meta",
+            "subtitles",
+            "tracking",
+            "segments"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-poster-pro",
+      "revision": "5fc689d8b4bd520c929a3525141b21f0b6036307",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Plugin de Kino: rellena el póster y el fondo que le falte a un título, con la nota incrustada (OpenPosterDB y RatingPosterDB, con respaldo de TMDB).",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Poster Pro",
+        "## Qué hace (y qué no)",
+        "## De dónde sale cada póster",
+        "## Instalarlo",
+        "## Configurarlo",
+        "## Cómo funciona por dentro",
+        "## Qué no hace",
+        "## Créditos"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "poster-pro",
+          "version": "1.0.0",
+          "apiVersion": 9,
+          "capabilities": [
+            "meta"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-sdk",
+      "revision": "29653a1706499bf857eaa95700a09b4bf473ca39",
+      "license": "Apache-2.0",
+      "role": "SDK Node, contrato, firmas, sandbox y pruebas",
+      "description": "SDK for writing and testing Kino plugins on your computer: runs a plugin the way the app does. / Kit para escribir y probar plugins de Kino.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino plugin SDK",
+        "## Use it / Úsalo",
+        "# edit plugin.js and kino-plugin.json for your site, then run a function of it / edítalos para tu sitio y corre una función:",
+        "## Where it differs from the app / Dónde difiere de la app",
+        "## Plugins that use Nuvio scrapers / Plugins que usan scrapers de Nuvio",
+        "## Sync providers / Proveedores de sincronización",
+        "## apiVersion 13 (Kino 0.9.74 and later) / apiVersion 13 (Kino 0.9.74 en adelante)",
+        "## apiVersion 14 (Kino 0.9.74 and later) / apiVersion 14 (Kino 0.9.74 en adelante)",
+        "## apiVersion 15 (Kino 0.9.77) / apiVersion 15 (Kino 0.9.77)",
+        "## Tests",
+        "## Licence / Licencia"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-seenr",
+      "revision": "726ec7346773c2dd2bd5a480e79e3174fe035561",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Plugin de Kino: marca en tu cuenta de Seenr lo que empiezas y terminas de ver (tracking, Kino 0.9.51+).",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Seenr -- a Kino tracking plugin",
+        "## Set it up (en español, lo que ve la persona)",
+        "## How it talks to Seenr",
+        "## Develop and test"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "seenr",
+          "version": "1.0.4",
+          "apiVersion": 7,
+          "capabilities": [
+            "tracking"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-store",
+      "revision": "897d1774ba5cdbce612513835e42111d6037bd33",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Kino Plugins: Kino's built-in plugin store (a Kino plugin). Lists the plugins Kino offers and builds the daily community index.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino Plugins (the built-in store)",
+        "## How it is built",
+        "## What `storeSync` answers",
+        "## Build, validate, try",
+        "## Signed",
+        "## Working on it outside Kino's repository"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "kino-plugins",
+          "version": "1.0.2",
+          "apiVersion": 15,
+          "capabilities": [
+            "pluginStore"
+          ],
+          "hasThemes": false,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-subtitlecat",
+      "revision": "29f8c7116a3ca9f2da4c2ebc1fa4dcc0e65eb229",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Plugin de Kino: subtítulos de SubtitleCat (español, latino y más idiomas) en «Buscar subtítulos en línea», para cualquier película o serie.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# SubtitleCat -- a Kino subtitle plugin",
+        "## En español (lo que ve la persona)",
+        "## How it works",
+        "## Develop and test"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "subtitlecat",
+          "version": "1.0.1",
+          "apiVersion": 6,
+          "capabilities": [
+            "subtitles"
+          ],
+          "hasThemes": false,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-sync-gdrive",
+      "revision": "8bd76be1f188e0d73bcd097c27efb8008266c79e",
+      "license": "MIT",
+      "role": "Plugin Kino",
+      "description": "Sincroniza Kino con tu propio Google Drive: copia cifrada, se conecta con un código. Experimental, no oficial. · Syncs Kino through your own Google Drive: encrypted copy, connect with a code. Unofficial.",
+      "readmes": [
+        "README.es.md",
+        "README.md"
+      ],
+      "headings": [
+        "# Kino Sync (experimental)",
+        "## Qué ve la persona",
+        "## Dónde queda la copia",
+        "## Lo que debes hacer tú una sola vez (el cliente de Google)",
+        "## Cómo guarda y cómo evita pisar escrituras",
+        "## Verificado y sin verificar",
+        "## Páginas",
+        "## Páginas",
+        "# Kino Sync (experimental)",
+        "## What the person sees",
+        "## Where the copy lives",
+        "## What you do once (the Google client)",
+        "## How it stores, and how it avoids overwriting",
+        "## Verified and not verified",
+        "## Pages"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "sync-gdrive",
+          "version": "0.2.5",
+          "apiVersion": 14,
+          "capabilities": [
+            "syncProvider",
+            "screen"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-sync-gram",
+      "revision": "af1d4dcfc4248defd8108742d061bdba39a4f90a",
+      "license": "MIT",
+      "role": "Plugin Kino",
+      "description": "Kino plugin: sync your Kino devices through a Telegram bot of your own (sync provider, Kino 0.9.74+). Unofficial: not affiliated with Telegram.",
+      "readmes": [
+        "README.es.md",
+        "README.md"
+      ],
+      "headings": [
+        "# Sync-Gram: sincroniza tus aparatos de Kino a través de tu propio bot de Telegram",
+        "## Qué necesitas",
+        "## 1. Crea tu bot con @BotFather",
+        "## 2. Instala el plugin en Kino",
+        "## 3. Enciende el proveedor",
+        "## 4. Conectar: pega el token, escríbele a tu bot, confirma que eres tú",
+        "## 5. Agrega tu segundo aparato",
+        "## Qué pueden leer Telegram y el plugin",
+        "### Cambiar (rotar) el token",
+        "## Límites de la Bot API",
+        "## Si algo falla",
+        "## Para quienes hacen plugins",
+        "# Sync-Gram: sync your Kino devices through your own Telegram bot",
+        "## What you need",
+        "## 1. Create your bot with @BotFather"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "sync-gram",
+          "version": "1.1.1",
+          "apiVersion": 14,
+          "capabilities": [
+            "syncProvider",
+            "screen"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-sync-gram-account",
+      "revision": "649575043826a9a92cca2a378f80a48449fef442",
+      "license": "MIT",
+      "role": "Plugin Kino",
+      "description": "Kino plugin: sync your Kino devices through your own Telegram account, in Saved Messages (sync provider, Kino 0.9.74+). Unofficial: not affiliated with Telegram.",
+      "readmes": [
+        "README.es.md",
+        "README.md"
+      ],
+      "headings": [
+        "# Sync-Gram Cuenta: sincroniza tus aparatos de Kino a través de tu propia cuenta de Telegram",
+        "## Lo que necesitas",
+        "## 1. Consigue tu api_id y tu api_hash",
+        "## 2. Instala el plugin en Kino",
+        "## 3. En el celular: configura e inicia sesión",
+        "## 4. En la TV: recibe la configuración y escanea el QR",
+        "## 5. Activa el proveedor",
+        "## Lo que pueden leer Telegram y el plugin",
+        "### La contraseña de dos pasos",
+        "## Privacidad y riesgos",
+        "## Límites",
+        "## Restablecer sincronización",
+        "## Si algo falla",
+        "## Para autores de plugins",
+        "## Licencia"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "sync-gram-account",
+          "version": "1.2.1",
+          "apiVersion": 14,
+          "capabilities": [
+            "syncProvider",
+            "socket",
+            "storageLarge",
+            "screen"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-sync-server",
+      "revision": "55a7e171b70179062a8a42fe23671e55e9f68ab1",
+      "license": "MIT",
+      "role": "Plugin Kino",
+      "description": "Kino plugin: sync your Kino devices through your own server (sync provider, Kino 0.9.74+). Example with a single-file Node server.",
+      "readmes": [
+        "README.es.md",
+        "README.md"
+      ],
+      "headings": [
+        "# Sync Servidor: sincroniza tus aparatos de Kino con tu propio servidor",
+        "## Qué necesitas",
+        "## 1. Enciende el servidor",
+        "## 2. Crea el túnel",
+        "### Opción A: túnel rápido (lo más rápido; la dirección cambia cada vez)",
+        "### Opción B: túnel con nombre (dirección fija; necesita una cuenta gratis de Cloudflare con un dominio)",
+        "## 3. Instala el plugin en Kino",
+        "## 4. Enciende el proveedor",
+        "## 5. Conectar: la dirección del servidor y el token",
+        "## 6. Agrega tu segundo aparato",
+        "## 7. Comprueba que funciona",
+        "## Si algo falla",
+        "## Qué puede ver el servidor y qué no",
+        "## Copia de seguridad, apagar y limpiar",
+        "## Para quien escribe plugins"
+      ],
+      "plugins": [
+        {
+          "path": "plugin/kino-plugin.json",
+          "id": "sync-server",
+          "version": "1.0.0",
+          "apiVersion": 12,
+          "capabilities": [
+            "syncProvider"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-tmdb",
+      "revision": "736cb309e785d1a429422cba2110d53e8bbccb6f",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Catálogo e información de películas y series de TMDB para Kino, directo desde tu aparato con tu propia llave.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# TMDB para Kino",
+        "## Qué hace",
+        "## La conexión con TMDB",
+        "## Privacidad",
+        "## Requisitos",
+        "## Para desarrolladores",
+        "## Atribución y licencia"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "tmdb",
+          "version": "1.2.0",
+          "apiVersion": 7,
+          "capabilities": [
+            "search",
+            "home",
+            "browse",
+            "episodes",
+            "resolve",
+            "meta"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-ui-gallery",
+      "revision": "b959254ad052e979405f12dde2569430dbc095d8",
+      "license": "MIT",
+      "role": "Plugin Kino",
+      "description": "Interactive gallery of every Kino plugin screen component: an example for plugin authors (Kino 0.9.74+)",
+      "readmes": [
+        "README.es.md",
+        "README.md"
+      ],
+      "headings": [
+        "# Galería de UI de Kino",
+        "## Cómo está construido",
+        "### Los archivos",
+        "### Los comandos",
+        "## Requisitos",
+        "## Instalación",
+        "## Más información",
+        "## Licencia",
+        "# Kino UI gallery",
+        "## How it is built",
+        "### The files",
+        "### The commands",
+        "## Requirements",
+        "## Install",
+        "## Learn more"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "screen-gallery",
+          "version": "1.0.1",
+          "apiVersion": 14,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-video-gram",
+      "revision": "7905bdcfc66c3918934bc3f0958b03c3a908a352",
+      "license": "MIT",
+      "role": "Plugin Kino",
+      "description": "Video-Gram: tus videos de Telegram en Kino / your Telegram videos in Kino (unofficial)",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Video-Gram (Kino plugin)",
+        "## Instalar",
+        "## Install",
+        "## In short",
+        "## Setup (Español)",
+        "### Con tu propia cuenta en vez de un bot (solo lectura)",
+        "## Setup (English)",
+        "### With your own account instead of a bot (read only)",
+        "## Where things live (for developers)"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "video-gram",
+          "version": "1.2.1",
+          "apiVersion": 14,
+          "capabilities": [
+            "home",
+            "search",
+            "browse",
+            "scopedSearch",
+            "resolve",
+            "socket",
+            "byteSource",
+            "catalog",
+            "imageSource",
+            "screen"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugin-watch-party",
+      "revision": "0ce2d489aedf05bd1315514f02b9dd77226fcfe0",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Party Chat, a Kino plugin: watch a title together on each person's own device, with a chat, reactions and the video in sync. Join with a 5-digit code or QR. Needs Kino 0.9.74+. / Mira un título con tus amigos, con chat y video sincronizado.",
+      "readmes": [
+        "README.es.md",
+        "README.md"
+      ],
+      "headings": [
+        "# Party Chat",
+        "## Capturas",
+        "## Instalar",
+        "## Antes de empezar: el mismo plugin, el mismo título",
+        "## Organizar una fiesta",
+        "## Unirse a una fiesta",
+        "## El chat",
+        "## En la TV",
+        "## Celular + TV",
+        "## Deja la pestaña fijada",
+        "## Permisos, en palabras sencillas",
+        "## Privacidad y seguridad",
+        "## Problemas comunes",
+        "## Cómo está organizado el código",
+        "## Licencia"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "watch-party",
+          "version": "1.1.2",
+          "apiVersion": 14,
+          "capabilities": [
+            "playerPanelTab",
+            "room",
+            "qrScan",
+            "playerControl"
+          ],
+          "hasThemes": false,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-plugins",
+      "revision": "eefa3721b04d80b780f821540a5515be41ac9ba3",
+      "license": "Apache-2.0",
+      "role": "Guía pública, contratos y ejemplos",
+      "description": "Cómo crear plugins para Kino: guía, contrato, kit y prompt para IA.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino plugins",
+        "## Working on the docs",
+        "## License"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/kino-resolver-example",
+      "revision": "01ed0bfbc6c93addc97d1a6813a2256ee0ec8234",
+      "license": "Apache-2.0",
+      "role": "Resolvedor Android AIDL y servidor HTTP de referencia",
+      "description": "Reference external resolver app for Kino: a media server inside an APK, plus its companion Kino plugin",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino Resolver Example",
+        "## What is in here",
+        "## Try it",
+        "## What each title demonstrates",
+        "## How the code is organised",
+        "## Tests",
+        "## Making your own media",
+        "## Getting the app to the person: install options",
+        "## Adapt it",
+        "## Limits (read before copying)",
+        "## Build an AI-assisted resolver",
+        "## License"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/kino-resolver-example-plugin",
+      "revision": "b220a9bda8a0b31b9bec7489cbddaf7d15de802b",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Companion Kino plugin for the Kino Resolver Example app (reference for plugin authors; not listed in Kino's search)",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino Resolver Example — companion plugin",
+        "## Install it in Kino",
+        "## What is here",
+        "## Test it"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "kino-resolver-example",
+          "version": "0.1.0",
+          "apiVersion": 11,
+          "capabilities": [
+            "search",
+            "home",
+            "resolve",
+            "externalResolve"
+          ],
+          "hasThemes": false,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-social",
+      "revision": "b60719383a351f62ecae316734fe56e14bf41d71",
+      "license": "Apache-2.0",
+      "role": "Plugin Kino",
+      "description": "Kino Social: a small social network inside Kino — share what you watch, comment, follow people and join communities. Kino plugin.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino Social",
+        "## Kinos",
+        "## Moderation / Moderación",
+        "## About this plugin",
+        "## How it is built",
+        "## Try it",
+        "## What it asks for",
+        "## Changes"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "kino-social",
+          "version": "0.9.6",
+          "apiVersion": 16,
+          "capabilities": [
+            "screen",
+            "library",
+            "tracking",
+            "identity",
+            "ai",
+            "schedule",
+            "notifications",
+            "playerPanelTab",
+            "coins"
+          ],
+          "hasThemes": false,
+          "hasSettings": true
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-social-backend",
+      "revision": "7c6bc74d12685923e94f9f3cb06625ad03d8587e",
+      "license": "Apache-2.0",
+      "role": "Servidor de Social; autenticación con tokens/atestación de Kino",
+      "description": "Kino Social backend: FastAPI + Postgres + Redis, runs on Oracle Cloud (see ORACLE.md)",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino Social backend",
+        "## Run",
+        "## Who may call it",
+        "## Caching",
+        "## API",
+        "## Licence"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/kino-theme",
+      "revision": "22186bdd0dbef70771b17555f915d260d31a63d0",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Kino's default theme: the built-in theme plugin that ships with the app.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino theme"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "kino-theme",
+          "version": "1.0.0",
+          "apiVersion": 17,
+          "capabilities": [],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-aguijon-de-acero",
+      "revision": "2af107750139c25c30eb8891ba8dabc5abb9c58d",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Aguijón de Acero: Amarillo de carrocería sobre negro, con esquinas de máquina que se transforma.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Aguijón de Acero"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-aguijon-de-acero",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-cine-negro",
+      "revision": "d0559e57f1669605f21a1dbeb76a9697c20113a0",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Cine Negro: Blanco y negro, esquinas rectas y humo de detective en los años cuarenta.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Cine Negro"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-cine-negro",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-gala-vampirica",
+      "revision": "9dee3c8bc53decf310efab9c74636242072ad44f",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Gala Vampírica: Burdeos de terciopelo y rosa sangre para noches eternas en el castillo.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Gala Vampírica"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-gala-vampirica",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-gran-tesoro",
+      "revision": "2f3a77cb80a545c4f009217183d30e24794ef578",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Gran Tesoro: Paja dorada y rojo de chaleco sobre mar profundo, para zarpar tras el tesoro.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Gran Tesoro"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-gran-tesoro",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-hechizo-boreal",
+      "revision": "1dcc3786e5d46491f09584760c9d6f20edd00e89",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Hechizo Boreal: Violeta y turquesa muy redondeados, como la magia en un cielo del norte.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Hechizo Boreal"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-hechizo-boreal",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-justiciero-nocturno",
+      "revision": "fa874ec61578b8f7d247dfbee2e412a4565cd18a",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Justiciero Nocturno: Azul de capa y amarillo de señal en el cielo de una ciudad que nunca duerme.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Justiciero Nocturno"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-justiciero-nocturno",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-ki-desatado",
+      "revision": "87907cbb299973b5c658d1387879e796afc43772",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Ki Desatado: Naranja de combate sobre azul noche, para quien entrena más allá de su límite.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Ki Desatado"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-ki-desatado",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-lluvia-de-codigo",
+      "revision": "dca8f3944e936cae81f85aab3640a2b8450376d3",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Lluvia de Código: Verde fósforo sobre negro total, como si la realidad fuera una simulación.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Lluvia de Código"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-lluvia-de-codigo",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-theme-reactor-escarlata",
+      "revision": "a5c988e154c898227763ee7a94a31b9492af36fb",
+      "license": "Consultar repositorio",
+      "role": "Plugin Kino",
+      "description": "Reactor Escarlata: Rojo de armadura y dorado de reactor, para genios con traje de metal.",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Reactor Escarlata"
+      ],
+      "plugins": [
+        {
+          "path": "kino-plugin.json",
+          "id": "theme-reactor-escarlata",
+          "version": "1.0.2",
+          "apiVersion": 17,
+          "capabilities": [
+            "screen"
+          ],
+          "hasThemes": true,
+          "hasSettings": false
+        }
+      ]
+    },
+    {
+      "repo": "kinotvapp/kino-tv",
+      "revision": "cdc17509c5365092582ca258a28e31d3ad7bfead",
+      "license": "GPL-3.0",
+      "role": "Licencia GPL y oferta de código por solicitud",
+      "description": "Kino TV: licence (GPL-3.0-or-later) and written source offer",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# Kino TV",
+        "# Kino TV (español)"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/kinotvapp.github.io",
+      "revision": "e26de193a587e356cea87a188fcb65c723fc1855",
+      "license": "Apache-2.0",
+      "role": "Sitio y documentación de distribución",
+      "description": "Kino — reproductor de películas y series para celular y TV",
+      "readmes": [
+        "README.md"
+      ],
+      "headings": [
+        "# kinotvapp.github.io"
+      ],
+      "plugins": []
+    },
+    {
+      "repo": "kinotvapp/winget-pkgs",
+      "role": "Distribución winget; no es un runtime ni un plugin",
+      "revision": null,
+      "description": "The Microsoft community Windows Package Manager manifest repository"
+    }
+  ]
+}

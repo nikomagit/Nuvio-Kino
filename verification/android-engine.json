@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-11-01",
+  "platform": "Android API 36 x86_64 emulator",
+  "engine": "Nuvio patched quickjs-kt-android-1.0.5-nuvio.aar",
+  "runner": "tools/android-probe",
+  "result": "PASS",
+  "verified": [
+    "ES module loading with the shared Kino prelude",
+    "manifest inspection and export probing",
+    "installation with immutable entry and commit marker",
+    "execution of the installed home export"
+  ],
+  "returned": [{"id":"ok","title":"tv","items":[]}],
+  "scope": "Core and Android engine verified in an isolated APK using the same sources and AAR as the clients. This is separate from full-client audiovisual and UI checks."
+}

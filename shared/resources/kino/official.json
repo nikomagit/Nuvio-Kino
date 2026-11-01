@@ -1,0 +1,243 @@
+[
+  {
+    "address": "kinotvapp/kino-plugin-archive",
+    "name": "Internet Archive",
+    "description": "Películas de dominio público y televisión clásica de archive.org",
+    "categories": [],
+    "id": "archive-org"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-archive-audio",
+    "name": "Internet Archive Audio",
+    "description": "Música libre, conciertos en vivo, audiolibros y radio antigua de archive.org",
+    "categories": [],
+    "id": "archive-audio"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-audio-test",
+    "name": "Audio de prueba",
+    "description": "Plugin de prueba para la música y los podcasts de Kino: álbumes, un sencillo y un audiolibro de dominio público del Internet Archive.",
+    "categories": [],
+    "id": "audio-test"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-news",
+    "name": "Solo noticias",
+    "description": "Noticias de las películas y series que viste y de tus temas, en tarjetas, desde Google Noticias. Actualización automática e IA opcionales. No oficial: sin relación con Google. (News about what you watched and your own topics, from Google News. Unofficial: not affiliated with Google.)",
+    "categories": [
+      "utilities"
+    ],
+    "id": "news"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-own-server",
+    "name": "Tu servidor",
+    "description": "Ve el contenido de tu propio servidor de video, con sus canales y subtítulos, y cuéntale qué ves. Necesita que escribas su dirección.",
+    "categories": [
+      "movies",
+      "series",
+      "live",
+      "subtitles",
+      "utilities"
+    ],
+    "id": "own-server"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-poster-pro",
+    "name": "Poster Pro",
+    "description": "Rellena el póster (y el fondo) que le falte a un título de cualquiera de tus fuentes, con la nota incrustada. No agrega catálogo, no reproduce nada y no pide cuenta: solo entra cuando falta una imagen.",
+    "categories": [
+      "utilities"
+    ],
+    "id": "poster-pro"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-seenr",
+    "name": "Seenr",
+    "description": "Marca en tu cuenta de Seenr lo que empiezas y terminas de ver en Kino. Necesita tu enlace personal de Seenr.",
+    "categories": [],
+    "id": "seenr"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-store",
+    "name": "Kino Plugins",
+    "description": "La tienda de Kino: los plugins recomendados y los de la comunidad en GitHub",
+    "categories": [],
+    "id": "kino-plugins"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-subtitlecat",
+    "name": "SubtitleCat",
+    "description": "Subtítulos de SubtitleCat en español y muchos otros idiomas, para cualquier película o serie que veas en Kino.",
+    "categories": [],
+    "id": "subtitlecat"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-sync-gdrive",
+    "name": "Kino Sync",
+    "description": "Sincroniza tus aparatos de Kino a través de tu propio Google Drive: conectas con un código, sin servidor ni hojas que copiar. Experimental. No oficial: sin relación con Google. (Experimental. Unofficial: not affiliated with Google.)",
+    "categories": [],
+    "id": "sync-gdrive"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-sync-gram",
+    "name": "Sync-Gram",
+    "description": "Sincroniza tus aparatos de Kino a través de un bot de Telegram que creas tú; la copia queda fijada en tu chat con el bot. No oficial: sin relación con Telegram. (Unofficial: not affiliated with Telegram.)",
+    "categories": [],
+    "id": "sync-gram"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-sync-gram-account",
+    "name": "Sync-Gram Cuenta",
+    "description": "Sincroniza tus aparatos de Kino a través de tu propia cuenta de Telegram, sin bot: la copia queda fijada en tus Mensajes guardados. En el celular entras con tu número y un código; la TV recibe la configuración y muestra un código QR. No oficial: sin relación con Telegram. (Unofficial: not affiliated with Telegram.)",
+    "categories": [],
+    "id": "sync-gram-account"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-sync-server/plugin",
+    "name": "Sync Servidor",
+    "description": "Sincroniza tus aparatos de Kino a través de un servidor pequeño que corres tú mismo (server.mjs). Plugin de ejemplo.",
+    "categories": [],
+    "id": "sync-server"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-tmdb",
+    "name": "TMDB",
+    "description": "Catálogo e información de películas y series de TMDB para Kino, directo desde tu aparato.",
+    "categories": [
+      "movies",
+      "series",
+      "utilities"
+    ],
+    "id": "tmdb"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-ui-gallery",
+    "name": "Galería de UI",
+    "description": "Ejemplo de pantalla de plugin: todos los componentes del kit de pantallas en una galería con demostraciones interactivas, para teléfono y TV",
+    "categories": [],
+    "id": "screen-gallery"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-video-gram",
+    "name": "Video-Gram",
+    "description": "Tus videos de Telegram en Kino: los de tus canales y chats, con tu propio bot o tu cuenta (solo lectura). No oficial: sin relación con Telegram. (Your Telegram videos in Kino, with your own bot or your account, read only. Unofficial: not affiliated with Telegram.)",
+    "categories": [
+      "movies"
+    ],
+    "id": "video-gram"
+  },
+  {
+    "address": "kinotvapp/kino-plugin-watch-party",
+    "name": "Party Chat",
+    "description": "Mira un título con tus amigos, cada quien en su aparato: una pestaña en el reproductor con chat, reacciones y el video sincronizado. Entra con un código de 5 números o con su QR. (Party Chat: watch a title together, with a chat and the video in sync.)",
+    "categories": [
+      "utilities"
+    ],
+    "id": "watch-party"
+  },
+  {
+    "address": "kinotvapp/kino-resolver-example-plugin",
+    "name": "Kino Resolver Example",
+    "description": "The companion of the Kino Resolver Example app: twelve titles that each show one thing an external resolver app can do",
+    "categories": [],
+    "id": "kino-resolver-example"
+  },
+  {
+    "address": "kinotvapp/kino-social",
+    "name": "Kino Social",
+    "description": "Experimento: un feed para contar lo que ves, con comentarios, perfiles y personas a las que seguir",
+    "categories": [],
+    "id": "kino-social"
+  },
+  {
+    "address": "kinotvapp/kino-theme",
+    "name": "Tema de Kino",
+    "description": "El aspecto de Kino, incluido en la app",
+    "categories": [
+      "themes"
+    ],
+    "id": "kino-theme"
+  },
+  {
+    "address": "kinotvapp/kino-theme-aguijon-de-acero",
+    "name": "Aguijón de Acero",
+    "description": "Amarillo de carrocería sobre negro, con esquinas de máquina que se transforma.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-aguijon-de-acero"
+  },
+  {
+    "address": "kinotvapp/kino-theme-cine-negro",
+    "name": "Cine Negro",
+    "description": "Blanco y negro, esquinas rectas y humo de detective en los años cuarenta.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-cine-negro"
+  },
+  {
+    "address": "kinotvapp/kino-theme-gala-vampirica",
+    "name": "Gala Vampírica",
+    "description": "Burdeos de terciopelo y rosa sangre para noches eternas en el castillo.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-gala-vampirica"
+  },
+  {
+    "address": "kinotvapp/kino-theme-gran-tesoro",
+    "name": "Gran Tesoro",
+    "description": "Paja dorada y rojo de chaleco sobre mar profundo, para zarpar tras el tesoro.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-gran-tesoro"
+  },
+  {
+    "address": "kinotvapp/kino-theme-hechizo-boreal",
+    "name": "Hechizo Boreal",
+    "description": "Violeta y turquesa muy redondeados, como la magia en un cielo del norte.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-hechizo-boreal"
+  },
+  {
+    "address": "kinotvapp/kino-theme-justiciero-nocturno",
+    "name": "Justiciero Nocturno",
+    "description": "Azul de capa y amarillo de señal en el cielo de una ciudad que nunca duerme.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-justiciero-nocturno"
+  },
+  {
+    "address": "kinotvapp/kino-theme-ki-desatado",
+    "name": "Ki Desatado",
+    "description": "Naranja de combate sobre azul noche, para quien entrena más allá de su límite.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-ki-desatado"
+  },
+  {
+    "address": "kinotvapp/kino-theme-lluvia-de-codigo",
+    "name": "Lluvia de Código",
+    "description": "Verde fósforo sobre negro total, como si la realidad fuera una simulación.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-lluvia-de-codigo"
+  },
+  {
+    "address": "kinotvapp/kino-theme-reactor-escarlata",
+    "name": "Reactor Escarlata",
+    "description": "Rojo de armadura y dorado de reactor, para genios con traje de metal.",
+    "categories": [
+      "themes"
+    ],
+    "id": "theme-reactor-escarlata"
+  }
+]
