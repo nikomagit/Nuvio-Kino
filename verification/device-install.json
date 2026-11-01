@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "device": "Samsung Galaxy S21 Ultra SM-G998B",
+  "abi": "arm64-v8a",
+  "package": "com.nikomagit.nuviokino.mobile.debug",
+  "versionName": "0.6.6",
+  "versionCode": 149,
+  "variant": "fullDebug",
+  "apkSha256": "333f92ac9abe2edb279aba02d7c9a830bc6fa64adc48370d645959e76a5760d0",
+  "adbInstall": "Success",
+  "activityLaunched": true,
+  "functionalTestsOnPhysicalDevice": "pending user testing"
+}

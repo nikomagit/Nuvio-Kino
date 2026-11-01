@@ -15,6 +15,9 @@
   reproducción HLS visible en Media3 y regreso al listado. Las capturas `tv-channels.png` y
   `tv-playback.png` muestran ese recorrido. El emulador no tiene salida de audio habilitada.
   En móvil se comprobó el inicio como invitado, creación de perfil local y acceso a TV.
+- `device-install.json`: la APK móvil se instaló correctamente y se abrió en un Samsung S21 Ultra
+  físico (arm64). Las pruebas funcionales en ese teléfono quedan a cargo del usuario; la instalación
+  por sí sola no certifica reproducción ni compatibilidad de sus servicios.
 - Las pruebas de `shared/test` cubren aislamiento, persistencia, configuración de servidores,
   rechazo de redirecciones a otros hosts, M3U, XMLTV/XXE y reescritura HLS/DASH.
 - La prueba con `KINO_MPV_LIBRARY` decodificó video HLS real con la libmpv fijada de Desktop

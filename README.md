@@ -41,7 +41,8 @@ Gradle independiente; no hay que ejecutar los scripts de integración para compi
 
 ## Compilar
 
-Necesitas **JDK 21**, Node 18+ para los scripts y Android SDK. Las versiones Kotlin, Compose,
+Necesitas **JDK 21**, Node 18+ para los scripts, Git LFS y Android SDK. Después de clonar ejecuta
+`git lfs pull` para descargar las bibliotecas nativas heredadas de Nuvio. Las versiones Kotlin, Compose,
 Gradle y AGP son las de las bases fijadas; no se rebajan para ocultar problemas de compilación.
 Android móvil usa plataforma **37.1**; TV usa su configuración fijada (plataforma 36, Build Tools
 y NDK cuando lo solicita Gradle). Acepta las licencias del SDK con las herramientas oficiales.
