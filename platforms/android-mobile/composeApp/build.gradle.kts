@@ -303,9 +303,15 @@ val runtimeLocalProperties = Properties().apply {
     }
 }
 
+val publicAccountProperties = Properties().apply {
+    val file = rootProject.file("../../config/official-accounts.properties")
+    if (file.exists()) file.inputStream().use(::load)
+}
+
 fun runtimeConfigValue(key: String, fallback: String = ""): String =
     runtimeLocalProperties.getProperty(key)?.trim()?.takeIf { it.isNotBlank() }
         ?: providers.environmentVariable(key).orNull?.trim()?.takeIf { it.isNotBlank() }
+        ?: publicAccountProperties.getProperty(key)?.trim()?.takeIf { it.isNotBlank() }
         ?: fallback
 
 fun runtimeConfigBoolean(key: String, default: Boolean): Boolean =

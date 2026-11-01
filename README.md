@@ -53,9 +53,17 @@ En cada proyecto crea un `local.properties` local, incluso si no usas servicios 
 sdk.dir=C:/ruta/al/Android/Sdk
 ```
 
-Las claves propias de TMDB, Supabase, Trakt y otros servicios son opcionales para compilar, pero
-las funciones que dependen de ellos necesitan configuración. No se incluyen cuentas, claves de
-firma de releases ni credenciales del proyecto original. Consulta también los README de cada base.
+La configuración pública de cuentas Nuvio se incluye en `config/official-accounts.properties`,
+obtenida de [su documento de descubrimiento](https://api.nuvio.tv/.well-known/nuvio).
+Contiene únicamente la URL y la clave de cliente anónimo publicada por ese servidor. Puede
+actualizarse con `node scripts/configure-accounts.mjs`; el script rechaza claves administrativas
+y valida el acceso a los ajustes públicos de autenticación. `local.properties` y las variables
+de entorno permiten sustituir estos valores. El acceso con cuenta y con enlace siguen dependiendo
+del servicio Nuvio y de sus condiciones de acceso.
+
+Las claves propias de TMDB, Trakt y otros servicios son opcionales para compilar, pero las funciones
+que dependen de ellos necesitan configuración. No se incluyen cuentas, claves de firma de releases
+ni credenciales administrativas del proyecto original. Consulta también los README de cada base.
 
 Antes de compilar Desktop descarga el único asset upstream que supera el límite de archivo de GitHub:
 

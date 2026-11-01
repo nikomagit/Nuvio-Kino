@@ -6,8 +6,9 @@
   "versionName": "0.6.6",
   "versionCode": 149,
   "variant": "fullDebug",
-  "apkSha256": "333f92ac9abe2edb279aba02d7c9a830bc6fa64adc48370d645959e76a5760d0",
+  "apkSha256": "702e3f4d93c22aa3993ab4bd16db182f65137204855962229c5478755a558ea5",
   "adbInstall": "Success",
   "activityLaunched": true,
-  "functionalTestsOnPhysicalDevice": "pending user testing"
+  "functionalTestsOnPhysicalDevice": "pending user testing",
+  "accountConfigurationFixInstalled": true
 }

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-01",
+  "configurationSource": "https://api.nuvio.tv/.well-known/nuvio",
+  "publicKeyRole": "anon",
+  "authSettingsHttp": 200,
+  "deviceLinkStartHttp": 200,
+  "deviceLinkCodeIssued": true,
+  "accountCredentialsTested": false,
+  "note": "Public configuration and link-session creation verified. Actual account sign-in requires user testing.",
+  "mobileFullDebugAssembled": true,
+  "tvBuildConfigGenerated": true,
+  "desktopRuntimeConfigGenerated": true
+}

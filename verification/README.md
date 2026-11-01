@@ -18,6 +18,9 @@
 - `device-install.json`: la APK móvil se instaló correctamente y se abrió en un Samsung S21 Ultra
   físico (arm64). Las pruebas funcionales en ese teléfono quedan a cargo del usuario; la instalación
   por sí sola no certifica reproducción ni compatibilidad de sus servicios.
+- `account-server.json`: configuración pública de Nuvio validada y creación de una sesión por
+  enlace comprobada contra el servidor. La primera APK tenía esos valores vacíos y dirigía ambos
+  métodos de acceso a localhost. No se han usado las credenciales del usuario en estas pruebas.
 - Las pruebas de `shared/test` cubren aislamiento, persistencia, configuración de servidores,
   rechazo de redirecciones a otros hosts, M3U, XMLTV/XXE y reescritura HLS/DASH.
 - La prueba con `KINO_MPV_LIBRARY` decodificó video HLS real con la libmpv fijada de Desktop
